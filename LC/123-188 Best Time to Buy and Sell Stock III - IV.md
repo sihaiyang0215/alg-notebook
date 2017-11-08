@@ -22,10 +22,10 @@ class Solution {
 ```
 ---
 ### 188. Best Time to Buy and Sell Stock IV
-188是将123的问题由两次买卖推广到K次。
-如果k >= prices.length / 2 就变成了```122. Best Time to Buy and Sell Stock II```.
-否则两种方法:
-Solution 1: 完全是123的推广
+188是将123的问题由两次买卖推广到K次。  
+如果k >= prices.length / 2 就变成了```122. Best Time to Buy and Sell Stock II```.  
+否则两种方法:   
+Solution 1: 完全是123的推广    
 ```java
 class Solution {
     public int maxProfit(int k, int[] prices) {
