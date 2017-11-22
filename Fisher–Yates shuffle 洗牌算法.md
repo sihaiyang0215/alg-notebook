@@ -24,7 +24,6 @@ public class FisherYatesShuffle {
 			System.out.print(num + " ");
 	}
 	
-	
 	private static void shuffle(int[] nums, Random rand){
 		for(int i = nums.length - 1; i >= 0; i--){
 			int j = rand.nextInt(i + 1);
