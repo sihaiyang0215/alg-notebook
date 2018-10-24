@@ -1,5 +1,5 @@
 
-```java
+```
 class Solution {
     public int combinationSum4(int[] nums, int target) {
         if(nums == null || nums.length == 0)
@@ -19,4 +19,5 @@ class Solution {
         }
         return dp[target];
     }
-}```
+}
+```
